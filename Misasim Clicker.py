@@ -202,7 +202,7 @@ def runTest():
         fileToCopyTo.close()
         os.chdir(misAsimFilePath)
 
-closeAbsurdAmountofWindows()
+#closeAbsurdAmountofWindows()
     
 global numFailedTests
 numFailedTests = 0
