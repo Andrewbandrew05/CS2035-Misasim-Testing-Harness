@@ -7,4 +7,5 @@ How to use:
 4. run misasim clicker and follow its prompts!
 
 Extra Notes:
+I'd suggest closing out of misasim between runs to close all the random tabs the program opens
 At the top of the misasim clicker python file is a variable called bufferbase. Try increasing this if the program frequently crashes (everything has to be done by just waiting for things to complete so if your computer isn't quite as fast as mine it might not work without a bit of finangling)
