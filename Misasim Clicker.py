@@ -7,7 +7,7 @@ import pyautogui
 import pyperclip
 import os
 
-bufferBase = 0.1
+bufferBase = 0.2
 
 #need to find way to guarantee location of misasim buttons
 def processDumpFile(filePath):
@@ -221,6 +221,7 @@ print("MiSaSim in foreground!")
 time.sleep(5)
 
 for i in range(0, int(numTeststoRun)):
+    print("Test :" + str(i))
     if i > 20 and i % 10 == 0:
         for i in range (0,20):
             closeAbsurdAmountofWindows()
