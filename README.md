@@ -6,6 +6,9 @@ How to use:
 3. Open misasim, load your .asm file, maximize the window, and move it to the first slot in the taskbar
 4. run misasim clicker and follow its prompts!
 
+
+UPDATE:
+I added a print statement in the last loop that actually facilitates running the tests. If you're experiencing crashing or other problems try deleting it (Line 224)
 Extra Notes:
 I'd suggest closing out of misasim between runs to close all the random tabs the program opens
 At the top of the misasim clicker python file is a variable called bufferbase. Try increasing this if the program frequently crashes (everything has to be done by just waiting for things to complete so if your computer isn't quite as fast as mine it might not work without a bit of finangling)
